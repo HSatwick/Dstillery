@@ -1,0 +1,33 @@
+#title{
+    text-align: center;
+}
+
+#hr_bar{
+    background-color: darkorange;
+    height: 10px;
+}
+
+#initial_container{
+    height: 600px;
+    width: 1300px;
+    border: hidden;
+    background-color: lightcoral;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#decorative{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 5cm;
+}
+
+#image_container_one, #image_container_two{
+    height: 300px;
+    width: 500px;
+    margin-top: 1cm;
+    margin-left: 8cm;
+    border: dashed;
+    background-color: maroon;
+}
