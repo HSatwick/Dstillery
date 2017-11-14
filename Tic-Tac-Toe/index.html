@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe Game</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<link href="custom.css" rel="stylesheet"/>
+<script src="basic_functionality_js/game_support.js"></script>
+<body>
+
+<div class="container-fluid">
+    <h1 class="custom_decor">Tic Tac Toe Game</h1>
+    <div class="col-sm-12 col-md-12 col-lg-12 custom_decor">
+        <div class="col-md-3 col-sm-3 col-lg-3">
+            <label for="player_1">Player 1 - Games Won</label>&nbsp;
+            <div class="label label-success" id="player_1">0</div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-lg-3">
+            <label>Games Tied</label>&nbsp;
+            <div id="ties" class="label label-danger">0</div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-lg-3">
+            <label>Player 2 - Games Won</label>&nbsp;
+            <div id="player_2" class="label label-success">0</div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-lg-3">
+            <button class="reset_button btn btn-default btn-sm" id="reset_button">Reset Game</button>
+        </div>
+    </div>
+    <div class="container-fluid-center">
+        <div class="col-sm-12 col-md-12 col-lg-12 x_o_position">
+            <div class="boxes_1_left col-md-4" id="0_0">
+                <input type="hidden" id="0_1_h" value=""/>
+            </div>
+            <div class="boxes_1_middle col-md-4" id="0_1">
+
+            </div>
+            <div class="boxes_1_right col-md-4" id="0_2">
+
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 x_o_position">
+            <div class="boxes_2_left col-md-4" id="1_0">
+
+            </div>
+            <div class="boxes_2_middle col-md-4" id="1_1">
+
+            </div>
+            <div class="boxes_2_right col-md-4" id="1_2">
+
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 x_o_position">
+            <div class="boxes_3_left col-md-4" id="2_0">
+
+            </div>
+            <div class="boxes_3_middle col-md-4" id="2_1">
+
+            </div>
+            <div class="boxes_3_right col-md-4" id="2_2">
+
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="hr_decorator">
+<div class="container-fluid">
+    <div class="col-sm-12 col-md-12 col-lg-12 custom_decor">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <label>Previous winner: &nbsp;</label>
+            <p class="x_o_position" id="winner_name">N/A</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <label>Current Player's Turn: &nbsp;</label>
+            <p class="x_o_position" id="player_turn">Player 1</p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <label>Marker is: &nbsp;</label>
+            <p class="x_o_position" id="marker">O</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

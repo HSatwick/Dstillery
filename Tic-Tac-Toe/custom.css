@@ -1,0 +1,82 @@
+
+
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.custom_decor{
+    text-align: center;
+}
+
+.reset_button{
+    color: black;
+    background-color: floralwhite;
+}
+
+.container-fluid-center{
+    padding-left: 35%;
+    padding-top: 5%;
+}
+
+.boxes_1_left, .boxes_1_middle, .boxes_2_left, .boxes_2_middle{
+    height: 100px;
+    width: 100px;
+    border-right: solid;
+    border-bottom: solid;
+}
+
+.boxes_1_left:hover, .boxes_1_middle:hover, .boxes_2_left:hover, .boxes_2_middle:hover{
+    height: 100px;
+    width: 100px;
+    border-right: solid;
+    border-bottom: solid;
+    cursor: pointer;
+}
+
+.boxes_3_left, .boxes_3_middle{
+    height: 100px;
+    width: 100px;
+    border-right: solid;
+}
+
+.boxes_3_left:hover, .boxes_3_middle:hover{
+    height: 100px;
+    width: 100px;
+    border-right: solid;
+    cursor: pointer;
+}
+
+.boxes_1_right, .boxes_2_right{
+    height: 100px;
+    width: 100px;
+    border-bottom: solid;
+}
+
+.boxes_1_right:hover, .boxes_2_right:hover{
+    height: 100px;
+    width: 100px;
+    border-bottom: solid;
+    cursor: pointer;
+}
+
+.boxes_3_right{
+    height: 100px;
+    width: 100px;
+}
+
+.boxes_3_right:hover{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.x_o_position{
+    text-align: center;
+    font-size: 80px;
+}
+
+hr.hr_decorator{
+    height: 5px;
+    background-color: aliceblue;
+}
